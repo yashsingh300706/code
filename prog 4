@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+class Account 
+{
+    public:
+     int accountNumber ;
+     double balance;
+    void display()
+    {
+        cout<<"account number"<<endl;
+        cout<<accountNumber ;
+        cout<<"balance"<<endl;
+        cout<<balance;
+    }
+    void input()
+    {
+        cout<<"enter the account number"<<endl;
+        cin>>accountNumber;
+        cout<<"enter the balance"<<endl;
+        cin>>balance;
+    }
+};
+int main()
+{
+    Account p1;
+    p1.input();
+    p1.display();
+    return 0;
+}

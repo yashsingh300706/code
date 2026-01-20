@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class Student
+{
+    public:
+    int roll;
+    void display()
+    {
+        cout<<roll;
+    }
+    void input()
+    {
+        cout<<"enter a roll no";
+        cin>>roll;
+    }
+};
+int main()
+{
+    Student roll1;
+    roll1.input();
+    roll1.display();
+    return 0;
+}

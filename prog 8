@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class Rectangle
+{
+    public:
+     float length ;
+     float breadth;
+    void display()
+    {
+        cout<<"lenth of rectangle is ";
+        cout<<length<<endl ;
+        cout<<"breadth of rectangle is  ";
+        cout<<breadth<<endl;
+    
+    }
+    void input()
+    {
+        cout<<"enter the length of rectangle "<<endl;
+        cin>>length ;
+        cout<<"enter the breadth of the rectangle"<<endl;
+        cin>>breadth;
+    
+    }
+
+};
+int main()
+{
+    Rectangle p1;
+    p1.input();
+    p1.display();
+    return 0;
+}

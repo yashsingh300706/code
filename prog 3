@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class Book
+{
+    public:
+    float price ;
+    void display()
+    {
+        cout<<price ;
+    }
+    void input()
+    {
+        cout<<"enter price of the book";
+        cin>>price;
+    }
+};
+int main()
+{
+    Book price1;
+    price1.input();
+    price1.display();
+    return 0;
+}

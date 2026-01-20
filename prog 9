@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class Mobile 
+{
+    public:
+     float price ;
+     string model ;
+    void display()
+    {
+        cout<<"phone model is ";
+        cout<<model<<endl ;
+        cout<<"price is ";
+        cout<<price<<endl;
+    
+    }
+    void input()
+    {
+        cout<<"enter the phone model "<<endl;
+        cin>>model ;
+        cout<<"enter the price  "<<endl;
+        cin>>price;
+    
+    }
+
+};
+int main()
+{
+    Mobile p1;
+    p1.input();
+    p1.display();
+    return 0;
+}

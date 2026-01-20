@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+class Person 
+{
+    public:
+     int age ;
+     double salary;
+    void display()
+    {
+        cout<<"age is ";
+        cout<<age<<endl ;
+        cout<<"salary is ";
+        cout<<salary;
+    }
+    void input()
+    {
+        cout<<"enter the age of a person"<<endl;
+        cin>>age ;
+        cout<<"enter the salary "<<endl;
+        cin>>salary;
+    }
+};
+int main()
+{
+    Person p1;
+    p1.input();
+    p1.display();
+    return 0;
+}

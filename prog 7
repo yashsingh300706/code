@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+class Marks
+{
+    public:
+     float dld ;
+     float maths;
+     float forensic;
+    void display()
+    {
+        cout<<"marks of digital logic designn are ";
+        cout<<dld<<endl ;
+        cout<<"marks of maths are ";
+        cout<<maths<<endl;
+        cout<<"marks of forensic are  ";
+        cout<<forensic;
+    }
+    void input()
+    {
+        cout<<"enter the marks of digital logic design "<<endl;
+        cin>>dld ;
+        cout<<"enter the marks of maths  "<<endl;
+        cin>>maths;
+        cout<<"enter the marks of forensic "<<endl;
+        cin>>forensic;
+    }
+
+};
+int main()
+{
+    Marks p1;
+    p1.input();
+    p1.display();
+    return 0;
+}
